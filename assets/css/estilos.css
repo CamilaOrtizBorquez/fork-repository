@@ -21,7 +21,8 @@ body {
   font-style: italic;
 }
 
-.btn-header{
+.btn-header,
+.btn-card{
   background-color:#15616d;
 }
 
@@ -31,6 +32,11 @@ body {
 
 .section-job{
   background-color: #15616d;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Hero Section */
